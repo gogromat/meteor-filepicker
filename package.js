@@ -1,5 +1,5 @@
 Package.describe({
-      summary: "Upload files using Filepicker.io as the backend."
+      summary: "Upload files using Filepicker.io."
 });
 
 Package.on_use(function (api) {
