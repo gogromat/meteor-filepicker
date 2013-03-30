@@ -2,7 +2,7 @@
     "name": "meteor-filepicker",
     "description": "A smart package that helps make it even easier to use Filepicker to upload/import and save/export content.",
     "homepage": "https://github.com/gogromat/meteor-filepicker",
-    "author": "Alexander Asta",
+    "author": "Alexander Astafurov",
     "version": "0.0.1",
     "git": "https://github.com/gogromat/meteor-filepicker/meteor.git",
     "packages": {}
