@@ -20,6 +20,7 @@ Meteor.startup(function() {
 ```
 
 Use filepicker API
+
 Ex. filepicker widget:
 ```js
 filepicker.constructWidget(
