@@ -10,18 +10,23 @@ Contains the minified filepicker.io's JS library.
 To start:
 ------------
 
-On Meteor startup:
+Add Filepicker.io Key
 
+Ex.
 ```js
 Meteor.startup(function() {
   filepicker.setKey("Your filepicker API Key");
-  filepicker.constructWidget(
-    //$("#filepicker-attachment")
-    document.getElementById("filepicker-attachment")
-  );
 });
 ```
 
+Use filepicker API
+Ex. Widget:
+```js
+filepicker.constructWidget(
+  //$("#filepicker-attachment")
+  document.getElementById("filepicker-attachment")
+);
+```
 ... and somewhere in template:
 
 ```js
