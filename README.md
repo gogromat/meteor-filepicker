@@ -10,7 +10,7 @@ Contains the minified filepicker.io's JS library.
 To start:
 ------------
 
-Add Filepicker.io Key
+Add filepicker Key
 
 Ex.
 ```js
@@ -20,7 +20,7 @@ Meteor.startup(function() {
 ```
 
 Use filepicker API
-Ex. Widget:
+Ex. filepicker widget:
 ```js
 filepicker.constructWidget(
   //$("#filepicker-attachment")
