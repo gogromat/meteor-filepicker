@@ -10,25 +10,25 @@ Contains the minified filepicker.io's JS library.
 To start:
 ------------
 
-Add filepicker Key
+_Add filepicker api key_
 
-Ex.
+*Ex.*
 ```js
 Meteor.startup(function() {
   filepicker.setKey("Your filepicker API Key");
 });
 ```
 
-Use filepicker API
+_Use filepicker API_
 
-Ex. filepicker widget:
+*Ex. filepicker widget:*
 ```js
 filepicker.constructWidget(
   //$("#filepicker-attachment")
   document.getElementById("filepicker-attachment")
 );
 ```
-... and somewhere in template:
+_and somewhere in template:_
 
 ```js
 Template.my_template.events({
@@ -37,4 +37,16 @@ Template.my_template.events({
                 "Generated image url:", evt.fpfile.url);
   }
 );
+```
+_filepicker itself:_
+
+```html
+  	<input type="filepicker"
+			id="filepicker-attachment"
+			data-fp-button-class="btn filepicker-attachment"
+			data-fp-button-text="Add image" 
+			data-fp-mimetypes="image/*"
+			data-fp-container="modal"
+			data-fp-maxsize="5000000" 
+			data-fp-services="COMPUTER,IMAGE_SEARCH,URL,DROPBOX,GITHUB,GOOGLE_DRIVE,GMAIL">
 ```
